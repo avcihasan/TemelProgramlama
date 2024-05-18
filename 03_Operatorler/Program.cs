@@ -31,6 +31,10 @@
                     *= (Çarpma ile Atama)
                     /= (Bölme ile Atama)
              */
+            int a = 10;
+            a = a + 1;
+            a += 1;
+
             #region Aritmetik 
             #region Toplama
             int sayi1 = 10;
@@ -45,7 +49,6 @@
             #endregion
 
             #region Çıkarma
-            // Çıkarma işlemi sadece sayısal değerlerde kullanılır
             int sayi4 = 40;
             int sayi5 = 20;
             int sayi6 = sayi4 - sayi5;
@@ -108,13 +111,12 @@
             #endregion
 
 
-            if (q1 == 0)
+
 
             #region ++ / -- 
 
             int t1 = 25;
             int t2 = t1++;
-            int t3 = t1;
             int t4 = ++t1;
             Console.WriteLine(t1++);
             #endregion
